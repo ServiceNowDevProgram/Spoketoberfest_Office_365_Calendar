@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="calendar" table="var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calendar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Calendar</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51</name>
+            <sequence>0</sequence>
+            <sys_created_by>mjonssonme</sys_created_by>
+            <sys_created_on>2019-10-19 21:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28f20b9a1be00c50719263913d4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mjonssonme</sys_updated_by>
+            <sys_updated_on>2019-10-19 21:27:55</sys_updated_on>
+            <value>Calendar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calendar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sweden holidays</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51</name>
+            <sequence>1</sequence>
+            <sys_created_by>mjonssonme</sys_created_by>
+            <sys_created_on>2019-10-19 21:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4f20b9a1be00c50719263913d4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mjonssonme</sys_updated_by>
+            <sys_updated_on>2019-10-19 21:27:55</sys_updated_on>
+            <value>Sweden holidays</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calendar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PUUR</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51</name>
+            <sequence>2</sequence>
+            <sys_created_by>mjonssonme</sys_created_by>
+            <sys_created_on>2019-10-19 21:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60f24b9a1be00c50719263913d4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mjonssonme</sys_updated_by>
+            <sys_updated_on>2019-10-19 21:27:55</sys_updated_on>
+            <value>PUUR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calendar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jan Gustafsson</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51</name>
+            <sequence>3</sequence>
+            <sys_created_by>mjonssonme</sys_created_by>
+            <sys_created_on>2019-10-19 21:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cf24b9a1be00c50719263913d4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mjonssonme</sys_updated_by>
+            <sys_updated_on>2019-10-19 21:27:55</sys_updated_on>
+            <value>Jan Gustafsson</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calendar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jonathan Frankel</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51</name>
+            <sequence>4</sequence>
+            <sys_created_by>mjonssonme</sys_created_by>
+            <sys_created_on>2019-10-19 21:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4f24b9a1be00c50719263913d4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mjonssonme</sys_updated_by>
+            <sys_updated_on>2019-10-19 21:27:55</sys_updated_on>
+            <value>Jonathan Frankel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calendar</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jonas Sköldberg</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51</name>
+            <sequence>5</sequence>
+            <sys_created_by>mjonssonme</sys_created_by>
+            <sys_created_on>2019-10-19 21:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0f24b9a1be00c50719263913d4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>mjonssonme</sys_updated_by>
+            <sys_updated_on>2019-10-19 21:27:55</sys_updated_on>
+            <value>Jonas Sköldberg</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>calendar</element>
+            <name>var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mjonssonme</sys_created_by>
+            <sys_created_on>2019-10-19 21:27:55</sys_created_on>
+            <sys_id>60f20b9a1be00c50719263913d4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>calendar</sys_name>
+            <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_6cf2839a1be00c50719263913d4bcb51_calendar</sys_update_name>
+            <sys_updated_by>mjonssonme</sys_updated_by>
+            <sys_updated_on>2019-10-19 21:27:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
