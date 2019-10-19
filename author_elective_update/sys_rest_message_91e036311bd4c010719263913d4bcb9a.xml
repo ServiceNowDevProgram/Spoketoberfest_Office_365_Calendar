@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>public</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>O365 Calendars</name>
+        <oauth2_profile display_value="Microsoft O365 OAuth default_profile">059187391b18c010719263913d4bcb94</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>https://graph.microsoft.com/v1.0/me/calendars</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 20:37:01</sys_created_on>
+        <sys_id>91e036311bd4c010719263913d4bcb9a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>O365 Calendars</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_rest_message_91e036311bd4c010719263913d4bcb9a</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 21:50:25</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</application>
+        <file_path/>
+        <instance_id>bba5cf00db7b3740387021c40596191f</instance_id>
+        <instance_name>mj1demo</instance_name>
+        <name>sys_rest_message_91e036311bd4c010719263913d4bcb9a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>public</access><authentication_type>oauth2</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>O365 Calendars</name><oauth2_profile display_value="Microsoft O365 OAuth default_profile">059187391b18c010719263913d4bcb94</oauth2_profile><protocol_name/><rest_endpoint>https://graph.microsoft.com/v1.0/me/calendars</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>mjonssonme</sys_created_by><sys_created_on>2019-10-05 20:37:01</sys_created_on><sys_id>91e036311bd4c010719263913d4bcb9a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>O365 Calendars</sys_name><sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package><sys_policy/><sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope><sys_update_name>sys_rest_message_91e036311bd4c010719263913d4bcb9a</sys_update_name><sys_updated_by>mjonssonme</sys_updated_by><sys_updated_on>2019-10-05 21:50:25</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>-2124675285</payload_hash>
+        <record_name>O365 Calendars</record_name>
+        <reverted_from/>
+        <source>975b4d751b9c8010719263913d4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 21:50:25</sys_created_on>
+        <sys_id>61d14b791b18c010719263913d4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d9de703030000001</sys_recorded_at>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 21:50:25</sys_updated_on>
+        <type>REST Message</type>
+        <update_guid>a9d14b796218c0105dde3f1e87c97fb8</update_guid>
+        <update_guid_history>a9d14b796218c0105dde3f1e87c97fb8:-2124675285,472d3ab10918c010b6e418a790a6b131:-392349957,160136318ad4c0105745a0c48df471d4:1228107404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-19 14:47:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>1a5a8fc958c24b00843ef700cf2f6c40</sys_id>
+        <sys_metadata>91e036311bd4c010719263913d4bcb9a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>O365 Calendars</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_scope_delete display_value="">3b8dca091c91470781aba901811ddf81</sys_scope_delete>
+        <sys_update_name>sys_rest_message_91e036311bd4c010719263913d4bcb9a</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_91e036311bd4c010719263913d4bcb9a">61d14b791b18c010719263913d4bcbb9</sys_update_version>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-19 14:47:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

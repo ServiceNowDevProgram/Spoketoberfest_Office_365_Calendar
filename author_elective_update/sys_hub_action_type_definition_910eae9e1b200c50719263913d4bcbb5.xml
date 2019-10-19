@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>a077e1961ba8c850719263913d4bcbe6</copied_from>
+        <copied_from_name>Get Calendars</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_get_calendars</internal_name>
+        <label_cache>[{"name":"{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[2b80b1b9-2b9a-4c88-9349-0513763fe784].calendarid}}","label":"step➛Script step Test➛calendarId","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Get Calendars</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>910eae9e1b200c50719263913d4bcbb5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Copy of Get Calendars</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_910eae9e1b200c50719263913d4bcbb5</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:16:35</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=910eae9e1b200c50719263913d4bcbb5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=910eae9e1b200c50719263913d4bcbb5"/>
+    <sys_element_mapping action="delete_multiple" query="id=910eae9e1b200c50719263913d4bcbb5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calendars</field>
+        <id>910eae9e1b200c50719263913d4bcbb5</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:14:16</sys_created_on>
+        <sys_id>311272561b600c50719263913d4bcb1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:16:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5</table>
+        <value>{{step[2b80b1b9-2b9a-4c88-9349-0513763fe784].calendarid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>myobject</field>
+        <id>910eae9e1b200c50719263913d4bcbb5</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:31</sys_created_on>
+        <sys_id>690eee9e1b200c50719263913d4bcb0d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:16:35</sys_updated_on>
+        <table>var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5</table>
+        <value>{{step[2b80b1b9-2b9a-4c88-9349-0513763fe784].calendarid}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=910eae9e1b200c50719263913d4bcbb5^sys_idNOT IN590eae9e1b200c50719263913d4bcbb9,6d0eae9e1b200c50719263913d4bcbe8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Get Calendars">910eae9e1b200c50719263913d4bcbb5</action>
+        <cid>3d3647c7-eff4-4f0d-8d18-12af3f1b9296</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>590eae9e1b200c50719263913d4bcbb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=590eae9e1b200c50719263913d4bcbb9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>250eae9e1b200c50719263913d4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>290eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>610eae9e1b200c50719263913d4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>650eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>/me/calendars</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>a10eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>4df7f2f91bd4c010719263913d4bcba9</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ad0eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>https://graph.microsoft.com/v1.0</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e90eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ed0eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=590eae9e1b200c50719263913d4bcbb9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>a90eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e50eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>250eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e90eae9e1b200c50719263913d4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>610eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>6d0eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ad0eae9e1b200c50719263913d4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>290eae9e1b200c50719263913d4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=590eae9e1b200c50719263913d4bcbb9^sys_idNOT IN590eae9e1b200c50719263913d4bcbbf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">590eae9e1b200c50719263913d4bcbb9</model>
+        <model_id>590eae9e1b200c50719263913d4bcbb9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_590eae9e1b200c50719263913d4bcbb9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>590eae9e1b200c50719263913d4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Get Calendars">910eae9e1b200c50719263913d4bcbb5</action>
+        <cid>2b80b1b9-2b9a-4c88-9349-0513763fe784</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step Test</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>6d0eae9e1b200c50719263913d4bcbe8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:13:28</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d0eae9e1b200c50719263913d4bcbe8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6d0eae9e1b200c50719263913d4bcbe8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>250eee9e1b200c50719263913d4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6d0eae9e1b200c50719263913d4bcbe8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e50eee9e1b200c50719263913d4bcb03</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:13:28</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var calendars = []; 
+ var json = JSON.parse(inputs.responseBody);
+
+  for (var i=0; i&lt;json.value.length; i++) {
+   
+		var calendarName = json.value[i].name;  
+    	var calendarId = json.value[i].id;
+    	var calendar = {'name':calendarName, 'id':calendarId};
+    	calendars.push(calendar);
+    	gs.info(calendars);
+    
+    
+    
+  }
+ 
+ outputs.calendars = {data: calendars};
+  outputs.json = json;
+  
+// ... code ...
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6d0eae9e1b200c50719263913d4bcbe8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6d0eae9e1b200c50719263913d4bcbe8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ed0eee9e1b200c50719263913d4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responseBody</field>
+        <id>6d0eae9e1b200c50719263913d4bcbe8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>610eee9e1b200c50719263913d4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8</table>
+        <value>{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6d0eae9e1b200c50719263913d4bcbe8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>a10eee9e1b200c50719263913d4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN690eae9e1b200c50719263913d4bcbeb"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responseBody</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step Test">6d0eae9e1b200c50719263913d4bcbe8</model>
+        <model_id>6d0eae9e1b200c50719263913d4bcbe8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>690eae9e1b200c50719263913d4bcbeb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN38413ed21b600c50719263913d4bcbf9,e50eae9e1b200c50719263913d4bcbf1"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>calendars</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Calendars</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step Test">6d0eae9e1b200c50719263913d4bcbe8</model>
+        <model_id>6d0eae9e1b200c50719263913d4bcbe8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:10:40</sys_created_on>
+        <sys_id>38413ed21b600c50719263913d4bcbf9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:16:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>json</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>json</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step Test">6d0eae9e1b200c50719263913d4bcbe8</model>
+        <model_id>6d0eae9e1b200c50719263913d4bcbe8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e50eae9e1b200c50719263913d4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=910eae9e1b200c50719263913d4bcbb5^sys_idNOT INa90eee9e1b200c50719263913d4bcb06,d7e13e161b600c50719263913d4bcbe2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>myobject</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>myObject</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Get Calendars">910eae9e1b200c50719263913d4bcbb5</model>
+        <model_id>910eae9e1b200c50719263913d4bcbb5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>a90eee9e1b200c50719263913d4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>calendars</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Calendars</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Get Calendars">910eae9e1b200c50719263913d4bcbb5</model>
+        <model_id>910eae9e1b200c50719263913d4bcbb5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:13:33</sys_created_on>
+        <sys_id>d7e13e161b600c50719263913d4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:13:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=910eae9e1b200c50719263913d4bcbb5^sys_idNOT IN590eae9e1b200c50719263913d4bcbb9,6d0eae9e1b200c50719263913d4bcbe8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Get Calendars">910eae9e1b200c50719263913d4bcbb5</action>
+        <cid>3d3647c7-eff4-4f0d-8d18-12af3f1b9296</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>590eae9e1b200c50719263913d4bcbb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=590eae9e1b200c50719263913d4bcbb9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>250eae9e1b200c50719263913d4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>290eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>610eae9e1b200c50719263913d4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>650eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>/me/calendars</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>a10eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>4df7f2f91bd4c010719263913d4bcba9</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ad0eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>https://graph.microsoft.com/v1.0</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e90eae9e1b200c50719263913d4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>590eae9e1b200c50719263913d4bcbb9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ed0eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=590eae9e1b200c50719263913d4bcbb9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>a90eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e50eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>250eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e90eae9e1b200c50719263913d4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>610eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>6d0eae9e1b200c50719263913d4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ad0eae9e1b200c50719263913d4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>590eae9e1b200c50719263913d4bcbb9</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>290eae9e1b200c50719263913d4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=590eae9e1b200c50719263913d4bcbb9^sys_idNOT IN590eae9e1b200c50719263913d4bcbbf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">590eae9e1b200c50719263913d4bcbb9</model>
+        <model_id>590eae9e1b200c50719263913d4bcbb9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_590eae9e1b200c50719263913d4bcbb9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>590eae9e1b200c50719263913d4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of Get Calendars">910eae9e1b200c50719263913d4bcbb5</action>
+        <cid>2b80b1b9-2b9a-4c88-9349-0513763fe784</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step Test</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>6d0eae9e1b200c50719263913d4bcbe8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:13:28</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d0eae9e1b200c50719263913d4bcbe8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6d0eae9e1b200c50719263913d4bcbe8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>250eee9e1b200c50719263913d4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6d0eae9e1b200c50719263913d4bcbe8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e50eee9e1b200c50719263913d4bcb03</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:13:28</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var calendars = []; 
+ var json = JSON.parse(inputs.responseBody);
+
+  for (var i=0; i&lt;json.value.length; i++) {
+   
+		var calendarName = json.value[i].name;  
+    	var calendarId = json.value[i].id;
+    	var calendar = {'name':calendarName, 'id':calendarId};
+    	calendars.push(calendar);
+    	gs.info(calendars);
+    
+    
+    
+  }
+ 
+ outputs.calendars = {data: calendars};
+  outputs.json = json;
+  
+// ... code ...
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6d0eae9e1b200c50719263913d4bcbe8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6d0eae9e1b200c50719263913d4bcbe8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>ed0eee9e1b200c50719263913d4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responseBody</field>
+        <id>6d0eae9e1b200c50719263913d4bcbe8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>610eee9e1b200c50719263913d4bcb04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8</table>
+        <value>{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>6d0eae9e1b200c50719263913d4bcbe8</id>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>a10eee9e1b200c50719263913d4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN690eae9e1b200c50719263913d4bcbeb"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>responseBody</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step Test">6d0eae9e1b200c50719263913d4bcbe8</model>
+        <model_id>6d0eae9e1b200c50719263913d4bcbe8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>690eae9e1b200c50719263913d4bcbeb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN38413ed21b600c50719263913d4bcbf9,e50eae9e1b200c50719263913d4bcbf1"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>calendars</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Calendars</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step Test">6d0eae9e1b200c50719263913d4bcbe8</model>
+        <model_id>6d0eae9e1b200c50719263913d4bcbe8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:10:40</sys_created_on>
+        <sys_id>38413ed21b600c50719263913d4bcbf9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:16:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>json</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>json</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step Test">6d0eae9e1b200c50719263913d4bcbe8</model>
+        <model_id>6d0eae9e1b200c50719263913d4bcbe8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:30</sys_created_on>
+        <sys_id>e50eae9e1b200c50719263913d4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5^sys_idNOT IN290eee9e1b200c50719263913d4bcb0b,5fe13e161b600c50719263913d4bcbe6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>myobject</element>
+        <help/>
+        <hint/>
+        <label>myObject</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 19:56:31</sys_created_on>
+        <sys_id>290eee9e1b200c50719263913d4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>myObject</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5_myobject_en</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 19:56:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>calendars</element>
+        <help/>
+        <hint/>
+        <label>Calendars</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:13:33</sys_created_on>
+        <sys_id>5fe13e161b600c50719263913d4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calendars</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5_calendars_en</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:13:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</application>
+        <file_path/>
+        <instance_id>bba5cf00db7b3740387021c40596191f</instance_id>
+        <instance_name>mj1demo</instance_name>
+        <name>sys_hub_action_type_definition_910eae9e1b200c50719263913d4bcbb5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from&gt;a077e1961ba8c850719263913d4bcbe6&lt;/copied_from&gt;&lt;copied_from_name&gt;Get Calendars&lt;/copied_from_name&gt;&lt;description/&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;copy_of_get_calendars&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].sn_auth_token}}","label":"step➛REST step➛Credential Value","type":"step","ref":""},{"name":"{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[2b80b1b9-2b9a-4c88-9349-0513763fe784].calendarid}}","label":"step➛Script step Test➛calendarId","type":"step","ref":""}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Copy of Get Calendars&lt;/name&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;state&gt;draft&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;910eae9e1b200c50719263913d4bcbb5&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Get Calendars&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_910eae9e1b200c50719263913d4bcbb5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:16:35&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=910eae9e1b200c50719263913d4bcbb5"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=910eae9e1b200c50719263913d4bcbb5"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=910eae9e1b200c50719263913d4bcbb5"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;calendars&lt;/field&gt;&lt;id&gt;910eae9e1b200c50719263913d4bcbb5&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 20:14:16&lt;/sys_created_on&gt;&lt;sys_id&gt;311272561b600c50719263913d4bcb1b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:16:35&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5&lt;/table&gt;&lt;value&gt;{{step[2b80b1b9-2b9a-4c88-9349-0513763fe784].calendarid}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;myobject&lt;/field&gt;&lt;id&gt;910eae9e1b200c50719263913d4bcbb5&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:31&lt;/sys_created_on&gt;&lt;sys_id&gt;690eee9e1b200c50719263913d4bcb0d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:16:35&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5&lt;/table&gt;&lt;value&gt;{{step[2b80b1b9-2b9a-4c88-9349-0513763fe784].calendarid}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=910eae9e1b200c50719263913d4bcbb5^sys_idNOT IN590eae9e1b200c50719263913d4bcbb9,6d0eae9e1b200c50719263913d4bcbe8"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Copy of Get Calendars"&gt;910eae9e1b200c50719263913d4bcbb5&lt;/action&gt;&lt;cid&gt;3d3647c7-eff4-4f0d-8d18-12af3f1b9296&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;REST step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="REST"&gt;07a762fb47222200b4fad7527c9a7129&lt;/step_type&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=590eae9e1b200c50719263913d4bcbb9"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;25&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;250eae9e1b200c50719263913d4bcbe5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;{"type":"ADV_NV","value":[]}&lt;/value&gt;&lt;variable display_value=""&gt;4328e2fb47222200b4fad7527c9a7164&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;290eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;{}&lt;/value&gt;&lt;variable display_value=""&gt;371837f1c71003007b237f48cb9763b0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;12&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;610eae9e1b200c50719263913d4bcbe5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value=""&gt;f11ebf865f101300a09a2abd7f466652&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;650eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;/me/calendars&lt;/value&gt;&lt;variable display_value=""&gt;3d090af03b23320057a4a2e334efc455&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;a10eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;4df7f2f91bd4c010719263913d4bcba9&lt;/value&gt;&lt;variable display_value=""&gt;262882f03b23320057a4a2e334efc4f0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;15&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ad0eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;https://graph.microsoft.com/v1.0&lt;/value&gt;&lt;variable display_value=""&gt;a67a8ef03b23320057a4a2e334efc472&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;13&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e90eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;18409d8007482000dada43c0d1021e8f&lt;/value&gt;&lt;variable display_value=""&gt;c30a451d2f201300a09a839fb18c95b4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ed0eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;ef751ff07301330025d71afe2ff6a7f9&lt;/value&gt;&lt;variable display_value=""&gt;37be397587c03300a8cc7d5e27cb0ba2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=590eae9e1b200c50719263913d4bcbb9"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;a90eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;base_url&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e50eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;capabilities&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;250eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;connection_alias&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e90eae9e1b200c50719263913d4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;headers&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;610eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value&gt;{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;query_params&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;6d0eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;resource_path&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ad0eae9e1b200c50719263913d4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;retry_policy&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;290eae9e1b200c50719263913d4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=590eae9e1b200c50719263913d4bcbb9^sys_idNOT IN590eae9e1b200c50719263913d4bcbbf"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sn_auth_token&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;Credential Value&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="REST step"&gt;590eae9e1b200c50719263913d4bcbb9&lt;/model&gt;&lt;model_id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_590eae9e1b200c50719263913d4bcbb9&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;7&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;590eae9e1b200c50719263913d4bcbbf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Copy of Get Calendars"&gt;910eae9e1b200c50719263913d4bcbb5&lt;/action&gt;&lt;cid&gt;2b80b1b9-2b9a-4c88-9349-0513763fe784&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Script step Test&lt;/label&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:13:28&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6d0eae9e1b200c50719263913d4bcbe8"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;250eee9e1b200c50719263913d4bcb03&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value=""&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e50eee9e1b200c50719263913d4bcb03&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:13:28&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs) {
+ var calendars = []; 
+ var json = JSON.parse(inputs.responseBody);
+
+  for (var i=0; i&amp;lt;json.value.length; i++) {
+   
+		var calendarName = json.value[i].name;  
+    	var calendarId = json.value[i].id;
+    	var calendar = {'name':calendarName, 'id':calendarId};
+    	calendars.push(calendar);
+    	gs.info(calendars);
+    
+    
+    
+  }
+ 
+ outputs.calendars = {data: calendars};
+  outputs.json = json;
+  
+// ... code ...
+})(inputs, outputs);
+&lt;/value&gt;&lt;variable display_value=""&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=6d0eae9e1b200c50719263913d4bcbe8"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ed0eee9e1b200c50719263913d4bcb02&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;responseBody&lt;/field&gt;&lt;id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;610eee9e1b200c50719263913d4bcb04&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8&lt;/table&gt;&lt;value&gt;{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].response_body}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;script&lt;/field&gt;&lt;id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;a10eee9e1b200c50719263913d4bcb03&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN690eae9e1b200c50719263913d4bcbeb"/&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;responseBody&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step Test"&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model&gt;&lt;model_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;690eae9e1b200c50719263913d4bcbeb&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN38413ed21b600c50719263913d4bcbf9,e50eae9e1b200c50719263913d4bcbf1"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;calendars&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="JSON"&gt;json&lt;/internal_type&gt;&lt;label&gt;Calendars&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Script step Test"&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model&gt;&lt;model_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 20:10:40&lt;/sys_created_on&gt;&lt;sys_id&gt;38413ed21b600c50719263913d4bcbf9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:16:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;json&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;json&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step Test"&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model&gt;&lt;model_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e50eae9e1b200c50719263913d4bcbf1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=910eae9e1b200c50719263913d4bcbb5^sys_idNOT INa90eee9e1b200c50719263913d4bcb06,d7e13e161b600c50719263913d4bcbe2"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;myobject&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;myObject&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Get Calendars"&gt;910eae9e1b200c50719263913d4bcbb5&lt;/model&gt;&lt;model_id&gt;910eae9e1b200c50719263913d4bcbb5&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;a90eee9e1b200c50719263913d4bcb06&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;calendars&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="JSON"&gt;json&lt;/internal_type&gt;&lt;label&gt;Calendars&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Get Calendars"&gt;910eae9e1b200c50719263913d4bcbb5&lt;/model&gt;&lt;model_id&gt;910eae9e1b200c50719263913d4bcbb5&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 20:13:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d7e13e161b600c50719263913d4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:13:33&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=910eae9e1b200c50719263913d4bcbb5^sys_idNOT IN590eae9e1b200c50719263913d4bcbb9,6d0eae9e1b200c50719263913d4bcbe8"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Copy of Get Calendars"&gt;910eae9e1b200c50719263913d4bcbb5&lt;/action&gt;&lt;cid&gt;3d3647c7-eff4-4f0d-8d18-12af3f1b9296&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;REST step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="REST"&gt;07a762fb47222200b4fad7527c9a7129&lt;/step_type&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=590eae9e1b200c50719263913d4bcbb9"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;25&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;250eae9e1b200c50719263913d4bcbe5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;{"type":"ADV_NV","value":[]}&lt;/value&gt;&lt;variable display_value=""&gt;4328e2fb47222200b4fad7527c9a7164&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;290eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;{}&lt;/value&gt;&lt;variable display_value=""&gt;371837f1c71003007b237f48cb9763b0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;12&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;610eae9e1b200c50719263913d4bcbe5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value=""&gt;f11ebf865f101300a09a2abd7f466652&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;650eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;/me/calendars&lt;/value&gt;&lt;variable display_value=""&gt;3d090af03b23320057a4a2e334efc455&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;a10eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;4df7f2f91bd4c010719263913d4bcba9&lt;/value&gt;&lt;variable display_value=""&gt;262882f03b23320057a4a2e334efc4f0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;15&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ad0eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;https://graph.microsoft.com/v1.0&lt;/value&gt;&lt;variable display_value=""&gt;a67a8ef03b23320057a4a2e334efc472&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;13&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e90eae9e1b200c50719263913d4bcbe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;18409d8007482000dada43c0d1021e8f&lt;/value&gt;&lt;variable display_value=""&gt;c30a451d2f201300a09a839fb18c95b4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;590eae9e1b200c50719263913d4bcbb9&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ed0eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;ef751ff07301330025d71afe2ff6a7f9&lt;/value&gt;&lt;variable display_value=""&gt;37be397587c03300a8cc7d5e27cb0ba2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=590eae9e1b200c50719263913d4bcbb9"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;a90eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;base_url&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e50eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;capabilities&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;250eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;connection_alias&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e90eae9e1b200c50719263913d4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;headers&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;610eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value&gt;{"type":"ADV_NV","value":[{"name":"Authorization","value":"Bearer {{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].sn_auth_token}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;query_params&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;6d0eae9e1b200c50719263913d4bcbe3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;resource_path&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ad0eae9e1b200c50719263913d4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;retry_policy&lt;/field&gt;&lt;id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;290eae9e1b200c50719263913d4bcbe2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=590eae9e1b200c50719263913d4bcbb9^sys_idNOT IN590eae9e1b200c50719263913d4bcbbf"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sn_auth_token&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;Credential Value&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="REST step"&gt;590eae9e1b200c50719263913d4bcbb9&lt;/model&gt;&lt;model_id&gt;590eae9e1b200c50719263913d4bcbb9&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_590eae9e1b200c50719263913d4bcbb9&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;7&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;590eae9e1b200c50719263913d4bcbbf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Copy of Get Calendars"&gt;910eae9e1b200c50719263913d4bcbb5&lt;/action&gt;&lt;cid&gt;2b80b1b9-2b9a-4c88-9349-0513763fe784&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Script step Test&lt;/label&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:13:28&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=6d0eae9e1b200c50719263913d4bcbe8"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;250eee9e1b200c50719263913d4bcb03&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value=""&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e50eee9e1b200c50719263913d4bcb03&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:13:28&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs) {
+ var calendars = []; 
+ var json = JSON.parse(inputs.responseBody);
+
+  for (var i=0; i&amp;lt;json.value.length; i++) {
+   
+		var calendarName = json.value[i].name;  
+    	var calendarId = json.value[i].id;
+    	var calendar = {'name':calendarName, 'id':calendarId};
+    	calendars.push(calendar);
+    	gs.info(calendars);
+    
+    
+    
+  }
+ 
+ outputs.calendars = {data: calendars};
+  outputs.json = json;
+  
+// ... code ...
+})(inputs, outputs);
+&lt;/value&gt;&lt;variable display_value=""&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=6d0eae9e1b200c50719263913d4bcbe8"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;application&lt;/field&gt;&lt;id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;ed0eee9e1b200c50719263913d4bcb02&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;responseBody&lt;/field&gt;&lt;id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;610eee9e1b200c50719263913d4bcb04&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8&lt;/table&gt;&lt;value&gt;{{step[3d3647c7-eff4-4f0d-8d18-12af3f1b9296].response_body}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;script&lt;/field&gt;&lt;id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/id&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;a10eee9e1b200c50719263913d4bcb03&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN690eae9e1b200c50719263913d4bcbeb"/&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;responseBody&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step Test"&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model&gt;&lt;model_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_6d0eae9e1b200c50719263913d4bcbe8&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;690eae9e1b200c50719263913d4bcbeb&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=6d0eae9e1b200c50719263913d4bcbe8^sys_idNOT IN38413ed21b600c50719263913d4bcbf9,e50eae9e1b200c50719263913d4bcbf1"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;calendars&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="JSON"&gt;json&lt;/internal_type&gt;&lt;label&gt;Calendars&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Script step Test"&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model&gt;&lt;model_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 20:10:40&lt;/sys_created_on&gt;&lt;sys_id&gt;38413ed21b600c50719263913d4bcbf9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:16:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;json&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;json&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step Test"&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model&gt;&lt;model_id&gt;6d0eae9e1b200c50719263913d4bcbe8&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_6d0eae9e1b200c50719263913d4bcbe8&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e50eae9e1b200c50719263913d4bcbf1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5^sys_idNOT IN290eee9e1b200c50719263913d4bcb0b,5fe13e161b600c50719263913d4bcbe6"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;myobject&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;myObject&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 19:56:31&lt;/sys_created_on&gt;&lt;sys_id&gt;290eee9e1b200c50719263913d4bcb0b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;myObject&lt;/sys_name&gt;&lt;sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5_myobject_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 19:56:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;calendars&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Calendars&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mattias.johnsson&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-19 20:13:33&lt;/sys_created_on&gt;&lt;sys_id&gt;5fe13e161b600c50719263913d4bcbe6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calendars&lt;/sys_name&gt;&lt;sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Office 365 Calendar Spoke"&gt;460cd41ddb98cc1064dcf5861d9619c4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_documentation_var__m_sys_hub_action_output_910eae9e1b200c50719263913d4bcbb5_calendars_en&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mattias.johnsson&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-19 20:13:33&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1350544003</payload_hash>
+        <record_name>Copy of Get Calendars</record_name>
+        <reverted_from/>
+        <source>975b4d751b9c8010719263913d4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:16:36</sys_created_on>
+        <sys_id>7392fe561b600c50719263913d4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16de5aa26160000001</sys_recorded_at>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:16:36</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>3b92fe5628600c50aa800fc827114a1f</update_guid>
+        <update_guid_history>3b92fe5628600c50aa800fc827114a1f:-1350544003,71127256d3600c50975de01f5840c555:-710842828,efe17e16ff600c50e3843e687dda8315:368742816,0ee1fa1617600c500e5400b1f69664cd:-714699582,85417ed2ad600c505ad52c959a1e3440:623237149,f50eee9e79200c50ea172630f52ccce6:-286030282,1d0eae9e78200c50fbd9776b5905e6b7:1265079320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:17:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>29cf2055862f4c2ea08831972f35e904</sys_id>
+        <sys_metadata>910eae9e1b200c50719263913d4bcbb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Get Calendars</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_scope_delete display_value="">3b8dca091c91470781aba901811ddf81</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_910eae9e1b200c50719263913d4bcbb5</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_910eae9e1b200c50719263913d4bcbb5">7392fe561b600c50719263913d4bcb20</sys_update_version>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:17:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

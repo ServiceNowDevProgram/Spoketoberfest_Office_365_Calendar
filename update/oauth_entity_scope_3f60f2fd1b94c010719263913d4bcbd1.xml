@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="INSERT_OR_UPDATE">
+        <name>Calendars.ReadWrite</name>
+        <oauth_entity display_value="Microsoft 365 OAuth">5bfe6a7d1b94c010719263913d4bcb1c</oauth_entity>
+        <oauth_entity_scope>Calendars.ReadWrite</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 20:35:32</sys_created_on>
+        <sys_id>3f60f2fd1b94c010719263913d4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calendars.ReadWrite</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>oauth_entity_scope_3f60f2fd1b94c010719263913d4bcbd1</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:35:32</sys_updated_on>
+    </oauth_entity_scope>
+</record_update>
