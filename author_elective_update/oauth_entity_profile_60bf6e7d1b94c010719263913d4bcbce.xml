@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="DELETE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Microsoft 365 OAuth default_profile</name>
+        <oauth_entity display_value="Microsoft 365 OAuth">5bfe6a7d1b94c010719263913d4bcb1c</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 20:31:09</sys_created_on>
+        <sys_id>60bf6e7d1b94c010719263913d4bcbce</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Microsoft 365 OAuth default_profile</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>oauth_entity_profile_60bf6e7d1b94c010719263913d4bcbce</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 21:29:21</sys_updated_on>
+    </oauth_entity_profile>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</application>
+        <file_path/>
+        <instance_id>bba5cf00db7b3740387021c40596191f</instance_id>
+        <instance_name>mj1demo</instance_name>
+        <name>oauth_entity_profile_60bf6e7d1b94c010719263913d4bcbce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile"><oauth_entity_profile action="INSERT_OR_UPDATE"><default>true</default><grant_type>authorization_code</grant_type><jwt_provider/><name>Microsoft 365 OAuth default_profile</name><oauth_entity display_value="Microsoft 365 OAuth">5bfe6a7d1b94c010719263913d4bcb1c</oauth_entity><sys_class_name>oauth_entity_profile</sys_class_name><sys_created_by>mjonssonme</sys_created_by><sys_created_on>2019-10-05 20:31:09</sys_created_on><sys_id>60bf6e7d1b94c010719263913d4bcbce</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Microsoft 365 OAuth default_profile</sys_name><sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package><sys_policy/><sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope><sys_update_name>oauth_entity_profile_60bf6e7d1b94c010719263913d4bcbce</sys_update_name><sys_updated_by>mjonssonme</sys_updated_by><sys_updated_on>2019-10-05 21:29:21</sys_updated_on></oauth_entity_profile></record_update>]]></payload>
+        <payload_hash>1030483269</payload_hash>
+        <record_name>Microsoft 365 OAuth default_profile</record_name>
+        <reverted_from/>
+        <source>975b4d751b9c8010719263913d4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 21:29:21</sys_created_on>
+        <sys_id>cd0df2b11b18c010719263913d4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d9dd3b8e30000001</sys_recorded_at>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 21:29:21</sys_updated_on>
+        <type>OAuth Entity Profile</type>
+        <update_guid>090df2b1f418c0107255e3ef51aa891e</update_guid>
+        <update_guid_history>090df2b1f418c0107255e3ef51aa891e:1030483269,1fbbfa31ac18c010352754d778173564:1028563472,3e8bb6313018c010b4a93570e4c8b29f:1098327645,acbf6e7ddd94c01068e8a3ace95b15cf:1030483269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Microsoft 365 OAuth default_profile">463ea7031bac0090719263913d4bcbb5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-22 08:32:25</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile">oauth_entity_profile</sys_db_object>
+        <sys_id>05a7b3542ab54cdc81c4794b2d84f379</sys_id>
+        <sys_metadata>60bf6e7d1b94c010719263913d4bcbce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Microsoft 365 OAuth default_profile</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_scope_delete display_value="">3b8dca091c91470781aba901811ddf81</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_60bf6e7d1b94c010719263913d4bcbce</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_60bf6e7d1b94c010719263913d4bcbce">cd0df2b11b18c010719263913d4bcb1e</sys_update_version>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-22 08:32:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

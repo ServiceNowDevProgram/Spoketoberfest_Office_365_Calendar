@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://login.microsoftonline.com/common/oauth2/v2.0/authorize</auth_url>
+        <certificate_url/>
+        <client_id>fea89eee-7ba6-432c-b3b4-6fd9ff9bbfef</client_id>
+        <client_secret>Y1vQFRlviAKLwOBSlV6NQcx7+4n62+BSadxdCv7heQV7MaSa+EyjGA==</client_secret>
+        <client_uuid>d7fe6a7d1b94c010719263913d4bcb1c</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Microsoft 365 OAuth</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://mj1demo.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as/>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 20:31:09</sys_created_on>
+        <sys_id>5bfe6a7d1b94c010719263913d4bcb1c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Microsoft 365 OAuth</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>oauth_entity_5bfe6a7d1b94c010719263913d4bcb1c</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 21:51:07</sys_updated_on>
+        <token_url>https://login.microsoftonline.com/common/oauth2/v2.0/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</application>
+        <file_path/>
+        <instance_id>bba5cf00db7b3740387021c40596191f</instance_id>
+        <instance_name>mj1demo</instance_name>
+        <name>oauth_entity_5bfe6a7d1b94c010719263913d4bcb1c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url>https://login.microsoftonline.com/common/oauth2/v2.0/authorize</auth_url><certificate_url/><client_id>fea89eee-7ba6-432c-b3b4-6fd9ff9bbfef</client_id><client_secret>Y1vQFRlviAKLwOBSlV6NQcx7+4n62+BSadxdCv7heQV7MaSa+EyjGA==</client_secret><client_uuid>d7fe6a7d1b94c010719263913d4bcb1c</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>authorization_code</default_grant_type><id_token_lifespan>0</id_token_lifespan><logo_url/><message_signature_lifespan>0</message_signature_lifespan><name>Microsoft 365 OAuth</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://mj1demo.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><revoke_token_url/><salt>0</salt><send_client_credentials_as/><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>mjonssonme</sys_created_by><sys_created_on>2019-10-05 20:31:09</sys_created_on><sys_id>5bfe6a7d1b94c010719263913d4bcb1c</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Microsoft 365 OAuth</sys_name><sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package><sys_policy/><sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope><sys_update_name>oauth_entity_5bfe6a7d1b94c010719263913d4bcb1c</sys_update_name><sys_updated_by>mjonssonme</sys_updated_by><sys_updated_on>2019-10-05 21:51:07</sys_updated_on><token_url>https://login.microsoftonline.com/common/oauth2/v2.0/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>-1228766650</payload_hash>
+        <record_name>Microsoft 365 OAuth</record_name>
+        <reverted_from/>
+        <source>975b4d751b9c8010719263913d4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 21:51:07</sys_created_on>
+        <sys_id>33f18f791b18c010719263913d4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d9de7a7060000001</sys_recorded_at>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 21:51:07</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>7bf18f796f18c01057d39a9b6230052e</update_guid>
+        <update_guid_history>7bf18f796f18c01057d39a9b6230052e:-1228766650,3e0db6b13918c010ba0922d77630c467:283456542,490df2b14018c010976b9c6684ad2020:-954422762,eb6bb2315318c01016a7e735569bded9:-1327669525,773bbefd08d4c0104c4c4efdac6666c4:-83242626,e0bf6e7d3e94c010c174cebe94f4f4d1:-954422762</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Microsoft 365 OAuth">8e3ea7031bac0090719263913d4bcbb8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-22 08:32:25</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>1febe61c9b4743f8a866c669a17f6840</sys_id>
+        <sys_metadata>5bfe6a7d1b94c010719263913d4bcb1c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Microsoft 365 OAuth</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_scope_delete display_value="">3b8dca091c91470781aba901811ddf81</sys_scope_delete>
+        <sys_update_name>oauth_entity_5bfe6a7d1b94c010719263913d4bcb1c</sys_update_name>
+        <sys_update_version display_value="oauth_entity_5bfe6a7d1b94c010719263913d4bcb1c">33f18f791b18c010719263913d4bcb2f</sys_update_version>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-22 08:32:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
