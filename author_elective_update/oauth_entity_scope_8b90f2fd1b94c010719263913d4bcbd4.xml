@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="DELETE">
+        <name>Calendars.Read.Shared</name>
+        <oauth_entity display_value="Microsoft 365 OAuth">5bfe6a7d1b94c010719263913d4bcb1c</oauth_entity>
+        <oauth_entity_scope>Calendars.Read.Shared</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 20:35:32</sys_created_on>
+        <sys_id>8b90f2fd1b94c010719263913d4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calendars.Read.Shared</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>oauth_entity_scope_8b90f2fd1b94c010719263913d4bcbd4</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:35:32</sys_updated_on>
+    </oauth_entity_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</application>
+        <file_path/>
+        <instance_id>bba5cf00db7b3740387021c40596191f</instance_id>
+        <instance_name>mj1demo</instance_name>
+        <name>oauth_entity_scope_8b90f2fd1b94c010719263913d4bcbd4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope"><oauth_entity_scope action="INSERT_OR_UPDATE"><name>Calendars.Read.Shared</name><oauth_entity display_value="Microsoft 365 OAuth">5bfe6a7d1b94c010719263913d4bcb1c</oauth_entity><oauth_entity_scope>Calendars.Read.Shared</oauth_entity_scope><sys_class_name>oauth_entity_scope</sys_class_name><sys_created_by>mjonssonme</sys_created_by><sys_created_on>2019-10-05 20:35:32</sys_created_on><sys_id>8b90f2fd1b94c010719263913d4bcbd4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Calendars.Read.Shared</sys_name><sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package><sys_policy/><sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope><sys_update_name>oauth_entity_scope_8b90f2fd1b94c010719263913d4bcbd4</sys_update_name><sys_updated_by>mjonssonme</sys_updated_by><sys_updated_on>2019-10-05 20:35:32</sys_updated_on></oauth_entity_scope></record_update>]]></payload>
+        <payload_hash>1294319441</payload_hash>
+        <record_name>Calendars.Read.Shared</record_name>
+        <reverted_from/>
+        <source>975b4d751b9c8010719263913d4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 20:35:32</sys_created_on>
+        <sys_id>3cb076fd1b94c010719263913d4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d9da2759e0000001</sys_recorded_at>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 20:35:32</sys_updated_on>
+        <type>OAuth Entity Scope</type>
+        <update_guid>74b076fde394c010219a9d0e56c32a7a</update_guid>
+        <update_guid_history>74b076fde394c010219a9d0e56c32a7a:1294319441</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Calendars.Read.Shared">c63ea7031bac0090719263913d4bcb94</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-22 08:32:25</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_scope">oauth_entity_scope</sys_db_object>
+        <sys_id>071dd5aa3b594215803f019f8ec504a9</sys_id>
+        <sys_metadata>8b90f2fd1b94c010719263913d4bcbd4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calendars.Read.Shared</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_scope_delete display_value="">3b8dca091c91470781aba901811ddf81</sys_scope_delete>
+        <sys_update_name>oauth_entity_scope_8b90f2fd1b94c010719263913d4bcbd4</sys_update_name>
+        <sys_update_version display_value="oauth_entity_scope_8b90f2fd1b94c010719263913d4bcbd4">3cb076fd1b94c010719263913d4bcb7a</sys_update_version>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-22 08:32:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

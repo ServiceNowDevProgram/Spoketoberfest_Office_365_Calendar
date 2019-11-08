@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc79a77a276208c50d9f0be8c8e46e82e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>460cd41ddb98cc1064dcf5861d9619c4</scope_name>
+        <serialized_content>{"FlowDesigner:FDc79a77a276208c50d9f0be8c8e46e82e":{},"FlowDesigner:FDc79a77a276208c50d9f0be8c8e46e82e.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc79a77a276208c50d9f0be8c8e46e82e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"variable\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-20 20:09:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b9a77a21b208c50719263913d4bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDc79a77a276208c50d9f0be8c8e46e82e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_complex_object_8b9a77a21b208c50719263913d4bcb2e</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-20 20:12:13</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

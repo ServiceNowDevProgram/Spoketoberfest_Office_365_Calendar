@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8c953d9adee8c8508a73a6ffea6da48a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>460cd41ddb98cc1064dcf5861d9619c4</scope_name>
+        <serialized_content>{"FlowDesigner:FD8c953d9adee8c8508a73a6ffea6da48a":{"$COCollectionField":[{"name":{"FDfff47d5a53e8c8506c8635784893a594":["Any"],"FDfff47d5a53e8c8506c8635784893a594.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"calendars\",\"mandatory\":\"true\",\"child_name\":\"name\",\"uiTypeLabel\":\"array.object\",\"child_label\":\"Name\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"8000\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"calendars\",\"mandatory\":\"true\",\"child_name\":\"name\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8c953d9adee8c8508a73a6ffea6da48a\",\"child_label\":\"Name\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"8000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8c953d9adee8c8508a73a6ffea6da48a.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"calendars\",\"mandatory\":\"true\",\"child_name\":\"name\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8c953d9adee8c8508a73a6ffea6da48a\",\"child_label\":\"Name\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"8000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-19 15:49:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40953d9a1be8c850719263913d4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD8c953d9adee8c8508a73a6ffea6da48a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_complex_object_40953d9a1be8c850719263913d4bcb8b</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-19 15:49:50</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

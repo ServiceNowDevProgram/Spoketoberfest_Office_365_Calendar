@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>calendarlisting</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Calendarlisting</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:17:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97d2b6961b600c50719263913d4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calendarlisting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_hub_flow_97d2b6961b600c50719263913d4bcb0a</sys_update_name>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:17:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=97d2b6961b600c50719263913d4bcb0a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97d2b6961b600c50719263913d4bcb0a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=97d2b6961b600c50719263913d4bcb0a^sys_idNOT IN5fd2f6961b600c50719263913d4bcb68"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>97d2b6961b600c50719263913d4bcb0a</id>
+        <name>Calendarlisting</name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:17:39</sys_created_on>
+        <sys_id>5fd2f6961b600c50719263913d4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:17:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</application>
+        <file_path/>
+        <instance_id>bba5cf00db7b3740387021c40596191f</instance_id>
+        <instance_name>mj1demo</instance_name>
+        <name>sys_hub_flow_97d2b6961b600c50719263913d4bcb0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><internal_name>calendarlisting</internal_name><label_cache>null</label_cache><latest_snapshot/><master_snapshot/><name>Calendarlisting</name><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>mattias.johnsson</sys_created_by><sys_created_on>2019-10-19 20:17:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>97d2b6961b600c50719263913d4bcb0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Calendarlisting</sys_name><sys_overrides/><sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package><sys_policy/><sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope><sys_update_name>sys_hub_flow_97d2b6961b600c50719263913d4bcb0a</sys_update_name><sys_updated_by>mattias.johnsson</sys_updated_by><sys_updated_on>2019-10-19 20:17:39</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=97d2b6961b600c50719263913d4bcb0a"/><sys_variable_value action="delete_multiple" query="document_key=97d2b6961b600c50719263913d4bcb0a"/><sys_flow_cat_variable_model action="delete_multiple" query="id=97d2b6961b600c50719263913d4bcb0a^sys_idNOT IN5fd2f6961b600c50719263913d4bcb68"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>97d2b6961b600c50719263913d4bcb0a</id><name>Calendarlisting</name><sys_created_by>mattias.johnsson</sys_created_by><sys_created_on>2019-10-19 20:17:39</sys_created_on><sys_id>5fd2f6961b600c50719263913d4bcb68</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>mattias.johnsson</sys_updated_by><sys_updated_on>2019-10-19 20:17:39</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-445115604</payload_hash>
+        <record_name>Calendarlisting</record_name>
+        <reverted_from/>
+        <source>975b4d751b9c8010719263913d4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:17:40</sys_created_on>
+        <sys_id>53d2f6961b600c50719263913d4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16de5ab1f0c0000001</sys_recorded_at>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:17:40</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>5bd2f69653600c50b71b53e242367c6c</update_guid>
+        <update_guid_history>5bd2f69653600c50b71b53e242367c6c:-445115604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>mattias.johnsson</sys_created_by>
+        <sys_created_on>2019-10-19 20:18:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>052f68274a574760801fb1642eee1ca4</sys_id>
+        <sys_metadata>97d2b6961b600c50719263913d4bcb0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calendarlisting</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_scope_delete display_value="">3b8dca091c91470781aba901811ddf81</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_97d2b6961b600c50719263913d4bcb0a</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_97d2b6961b600c50719263913d4bcb0a">53d2f6961b600c50719263913d4bcb6d</sys_update_version>
+        <sys_updated_by>mattias.johnsson</sys_updated_by>
+        <sys_updated_on>2019-10-19 20:18:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

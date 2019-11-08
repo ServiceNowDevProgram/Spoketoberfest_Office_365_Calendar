@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <connection_type>http_connection</connection_type>
+        <id>x_snc_office365cal.MS_365_Credential</id>
+        <multiple_connections>false</multiple_connections>
+        <name>MS_365_Credential</name>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>mjonssonme</sys_created_by>
+        <sys_created_on>2019-10-05 21:07:40</sys_created_on>
+        <sys_id>4df7f2f91bd4c010719263913d4bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_office365cal.MS_365_Credential</sys_name>
+        <sys_package display_value="Office 365 Calendar Spoke" source="x_snc_office365cal">460cd41ddb98cc1064dcf5861d9619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Calendar Spoke">460cd41ddb98cc1064dcf5861d9619c4</sys_scope>
+        <sys_update_name>sys_alias_4df7f2f91bd4c010719263913d4bcba9</sys_update_name>
+        <sys_updated_by>mjonssonme</sys_updated_by>
+        <sys_updated_on>2019-10-05 21:09:58</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>
